@@ -5,42 +5,42 @@
 baseUrl = "https://salemdynamics.com"
 
 [_.globalMeta]
-title = "Zaggonaut"
-description = "Retro-Inspired Theme & Built for Astro"
-longDescription = "Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro."
+title = "Salem Dynamics"
+description = "Small, local web design business."
+longDescription = "Small web design business created by a man and his cat."
 cardImage = "https://salemdynamics.com/Salem.webp"
 keywords = ["web development", "design", "technology"]
 
 [_.blogMeta]
-title = "Zaggonaut Blog"
+title = "Salem Dynamics Blog"
 description = "Practical wisdom, unfiltered thoughts, and hot takes."
 longDescription = "Web development, tech trends, and the occasional programming mishap."
 cardImage = "https://salemdynamics.com/Salem.webp"
 keywords = ["web development", "design", "technology"]
 
 [_.projectMeta]
-title = "Zaggonaut Projects"
+title = "Salem Dynamics Projects"
 description = "A list of my web development projects and developer tools."
 longDescription = "All of my projects, including both frontend and full-stack applications."
 cardImage = "https://salemdynamics.com/Salem.webp"
 keywords = ["web development", "design", "technology"]
 
 [_.notFoundMeta]
-title = "Zaggonaut 404"
+title = "Salem Dynamics 404"
 description = "The page you are looking for does not exist."
 longDescription = "The page you are looking for does not exist. Maybe it never existed. Spooky."
 cardImage = "https://salemdynamics.com/Salem.webp"
 
 [_.hero]
-title = "SalemDynamics"
-subtitle = "Small web design business<br />run by a man and his cat."
+title = "Salem Dynamics"
+subtitle = "Small, local web design business<br />created by a man and his cat."
 image = "https://salemdynamics.com/Salem.webp"
 ctaText = "View Projects"
 ctaUrl = "/projects"
 
 [_.personal]
-name = "Zaggonaut"
-githubProfile = "https://github.com/RATIU5/zaggonaut"
+name = "Salem Dynamics"
+githubProfile = "https://github.com/iudexus"
 twitterProfile = "https://twitter.com"
 linkedinProfile = "https://linkedin.com/"
 
