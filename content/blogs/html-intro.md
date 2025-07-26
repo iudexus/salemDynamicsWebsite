@@ -1,5 +1,5 @@
 ---
-title: 123A Basic123 Introduction to HTML123
+title: 123A Basic123 Introduction123 to HTML123
 slug: intro-to-html
 description: A brief guide covering the essentials of HTML.
 longDescription: HTML is the foundation of all websites. This guide will walk you through creating your first simple website using HTML.
