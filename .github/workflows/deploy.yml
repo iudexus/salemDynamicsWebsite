@@ -1,8 +1,8 @@
-name: Deploy Astro Site to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -14,19 +14,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install, build, and upload site using Astro Action
-        uses: withastro/action@v4
-        with:
-          package-manager: pnpm
-          node-version: 20
-
-      - name: Upload build output to GitHub Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
+      - name: Install, build, and upload site
+        uses: withastro/action@v3
 
   deploy:
     needs: build
