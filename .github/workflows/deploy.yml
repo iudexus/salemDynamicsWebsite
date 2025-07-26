@@ -33,8 +33,11 @@ jobs:
       - name: Install dependencies with pnpm
         run: pnpm install
 
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3
+      - name: Build with Astro
+        run: pnpm run build
+
+      #- name: Install, build, and upload your site
+        #uses: withastro/action@v3
         # with:
           # path: . # The root location of your Astro project inside the repository. (optional)
           # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
@@ -42,7 +45,7 @@ jobs:
       
       #artifact to see new files
       - name: Upload build output to GitHub Pages
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./dist
 
