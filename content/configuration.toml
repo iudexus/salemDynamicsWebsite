@@ -6,7 +6,7 @@ baseUrl = "https://salemdynamics.com"
 
 [_.globalMeta]
 title = "Salem Dynamics"
-description = "Small, local web design business."
+description = "Small, local web business."
 longDescription = "Small web design business created by a man and his cat."
 cardImage = "https://salemdynamics.com/Salem.webp"
 keywords = ["web development", "design", "technology"]
@@ -33,7 +33,7 @@ cardImage = "https://salemdynamics.com/Salem.webp"
 
 [_.hero]
 title = "Salem Dynamics"
-subtitle = "Small, local web design business<br />created by a man and his cat."
+subtitle = "Small, local web business<br />created by a man and his cat."
 image = "https://salemdynamics.com/Salem.webp"
 ctaText = "View Projects"
 ctaUrl = "/projects"
