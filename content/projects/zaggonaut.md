@@ -1,5 +1,5 @@
 ---
-title: Zaggonaut123
+title: 123Zaggonaut123
 slug: zaggonaut
 description: A retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.
 longDescription: Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.
