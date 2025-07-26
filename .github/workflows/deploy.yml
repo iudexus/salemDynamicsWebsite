@@ -13,30 +13,20 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
+      - name: Checkout your repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Install, build, and upload site using Astro Action
+        uses: withastro/action@v4
         with:
+          package-manager: pnpm
           node-version: 20
-          cache: 'pnpm'
 
-      - name: Install pnpm
-        run: npm install -g pnpm
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Build Astro site
-        run: pnpm run build
-
-      - name: Upload artifact for Pages
+      - name: Upload build output to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist'
+          path: ./dist
 
   deploy:
     needs: build
