@@ -2,39 +2,39 @@
 # we need to prefix all configuration keys with an underscore.
 
 [_.site]
-baseUrl = "http://zaggonaut.dev"
+baseUrl = "https://salemdynamics.com"
 
 [_.globalMeta]
 title = "Zaggonaut"
 description = "Retro-Inspired Theme & Built for Astro"
 longDescription = "Zaggonaut is a retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro."
-cardImage = "https://zaggonaut.dev/Salem1.webp"
+cardImage = "https://salemdynamics.com/Salem1.webp"
 keywords = ["web development", "design", "technology"]
 
 [_.blogMeta]
 title = "Zaggonaut Blog"
 description = "Practical wisdom, unfiltered thoughts, and hot takes."
 longDescription = "Web development, tech trends, and the occasional programming mishap."
-cardImage = "https://zaggonaut.dev/Salem1.webp"
+cardImage = "https://salemdynamics.com/Salem1.webp"
 keywords = ["web development", "design", "technology"]
 
 [_.projectMeta]
 title = "Zaggonaut Projects"
 description = "A list of my web development projects and developer tools."
 longDescription = "All of my projects, including both frontend and full-stack applications."
-cardImage = "https://zaggonaut.dev/Salem1.webp"
+cardImage = "https://salemdynamics.com/Salem1.webp"
 keywords = ["web development", "design", "technology"]
 
 [_.notFoundMeta]
 title = "Zaggonaut 404"
 description = "The page you are looking for does not exist."
 longDescription = "The page you are looking for does not exist. Maybe it never existed. Spooky."
-cardImage = "https://zaggonaut.dev/Salem1.webp"
+cardImage = "https://salemdynamics.com/Salem1.webp"
 
 [_.hero]
 title = "SalemDynamics"
-subtitle = "Small web design and lead-generation business<br />run by a man and his cat."
-image = "https://zaggonaut.dev/Salem1.webp"
+subtitle = "Small web design business<br />run by a man and his cat."
+image = "https://salemdynamics.com/Salem1.webp"
 ctaText = "View Projects"
 ctaUrl = "/projects"
 
